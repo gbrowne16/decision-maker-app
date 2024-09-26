@@ -1,17 +1,24 @@
+<!-- This says that what we are typing on is the html -->
 <!DOCTYPE html>
 <html>
     <head>
+      <!-- This is the header that goes in the top left, which is the tab  -->
         <title>Pick a Home!</title>
+        <!-- This links the html to the style.css -->
           <link rel="stylesheet" href="style2.css">
     </head>
+    
+  <!-- This creates the body -->
     <body>
         <center>
+          <!-- This directly affects what goes at the top of the page -->
             <h1>Find Your Home!</h1>
+<!-- This identifies the house image and tells what size it should be -->
+            <img id="houseImage" width="70%" height="auto">
 
-    
-            <div class="outputBox1" id="outputBox">
-                <p id="output"> </p>
+           
             </div>
+            <!-- This creates all the boxes and choices for the user -->
             <header>Budget</header>
             <input type="text" id="budget"><br><br>
             <header>Number of People</header>
@@ -23,6 +30,12 @@
         <option value="Rural">Rural</option>
     
       </select><br><br>
-      <button onclick="getHouse()">Find My House!</button>
+      <!-- This creates the button for the user to generate their house -->
+      <button onclick="displayHouse()" >Find My Home! </button>
+      
+      </center>
+      <!-- This links the java script to the html -->
+      <script src="script2.js"></script>
+    </body>
 
 </html>
