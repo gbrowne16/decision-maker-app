@@ -2,10 +2,7 @@
 //this is the function that determines what will be shown on the screen
 function getHouse(inputBudget, numPeople, life){
 
-
-
 //turns the pictures into variables
-
 var closet = "Sourya_Venumbaka_before_1_tagged.webp";
 var stables = "download-4.jpg";  
 var niceFarm = "61c82819910c6c793c6a7cb1efa39d95.jpg";
