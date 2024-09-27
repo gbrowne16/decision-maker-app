@@ -1,7 +1,6 @@
 
 
 body{
-   /* this sets  */
     font-family: monospace;
     background-color: rgb(247, 201, 228);
     font-weight: bold;
@@ -21,7 +20,7 @@ body{
   }
   
   button{
-    background-color: rgb(248, 130, 198);
+    background-color: rgb(255, 2, 150);
     padding: 10px;
     font-family: monospace;
     border: none;
